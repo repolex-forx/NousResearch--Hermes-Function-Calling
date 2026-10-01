@@ -51,6 +51,160 @@
       ],
       "ast": [
         "aggregate/ast/ea3c4723e4cefdac760d483ccac6c8a428c95ab8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ea3c4723e4cefdac760d483ccac6c8a428c95ab8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.1.2",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "a8e7c98cb95ff97bb30a728c6b2a1ce6bff946eb",
+          "githubTag": "v2.1.2",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "4.38.1",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubCommit": "a0857740c0e6127485c11476650314df3accc2b6",
+          "githubTag": "v4.38.1",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "bitsandbytes",
+          "ecosystem": "PYPI",
+          "version": "0.41.1",
+          "githubOrg": "bitsandbytes-foundation",
+          "githubRepo": "bitsandbytes",
+          "githubUrl": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "accelerate",
+          "ecosystem": "PYPI",
+          "version": "0.27.2",
+          "githubOrg": "huggingface",
+          "githubRepo": "accelerate",
+          "githubCommit": "5eb7ab9f6afb0fed38cb54741e243180d6f8bc5d",
+          "githubTag": "v0.27.2",
+          "githubUrl": "https://github.com/huggingface/accelerate",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "langchain",
+          "ecosystem": "PYPI",
+          "version": "0.1.9",
+          "githubOrg": "langchain-ai",
+          "githubRepo": "langchain",
+          "githubCommit": "d9e6ca22799fe54482f5ca02eead6a23f0006c31",
+          "githubTag": "v0.1.9",
+          "githubUrl": "https://github.com/langchain-ai/langchain",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.6.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "511d862ec9895de6999d260ac4c790d0b233e316",
+          "githubTag": "v2.6.2",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "jsonschema",
+          "ecosystem": "PYPI",
+          "version": "4.21.1",
+          "githubOrg": "python-jsonschema",
+          "githubRepo": "jsonschema",
+          "githubCommit": "aa53fd004b172d811e26b8f61926135e4481b2a5",
+          "githubTag": "v4.21.1",
+          "githubUrl": "https://github.com/python-jsonschema/jsonschema",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "yfinance",
+          "ecosystem": "PYPI",
+          "version": "0.2.36",
+          "githubOrg": "ranaroussi",
+          "githubRepo": "yfinance",
+          "githubCommit": "ab979e9141e114f41d9497ea249db0e48df14141",
+          "githubTag": "0.2.36",
+          "githubUrl": "https://github.com/ranaroussi/yfinance",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pandas",
+          "ecosystem": "PYPI",
+          "version": "2.2.0",
+          "githubOrg": "pandas-dev",
+          "githubRepo": "pandas",
+          "githubCommit": "f538741432edf55c6b9fb5d0d496d2dd1d7c2457",
+          "githubTag": "v2.2.0",
+          "githubUrl": "https://github.com/pandas-dev/pandas",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "ninja",
+          "ecosystem": "PYPI",
+          "version": "1.11.1.1",
+          "githubOrg": "scikit-build",
+          "githubRepo": "ninja-python-distributions",
+          "githubCommit": "d07caf4d9a980431bd93082e868ea1a7693904d5",
+          "githubTag": "1.11.1.1",
+          "githubUrl": "https://github.com/scikit-build/ninja-python-distributions",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "flash-attn",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "Dao-AILab",
+          "githubRepo": "flash-attention",
+          "githubCommit": "87a1277653fc55cd615f5341255e00c69d5c00a1",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/Dao-AILab/flash-attention",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "sentencepiece",
+          "ecosystem": "PYPI",
+          "version": "0.2.2",
+          "githubOrg": "google",
+          "githubRepo": "sentencepiece",
+          "githubCommit": "e0cce7d37b065b5140349dbe12c6bcf6192fdd78",
+          "githubTag": "v0.2.2",
+          "githubUrl": "https://github.com/google/sentencepiece",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "art",
+          "ecosystem": "PYPI",
+          "version": "6.5.0",
+          "githubOrg": "sepandhaghighi",
+          "githubRepo": "art",
+          "githubUrl": "https://github.com/sepandhaghighi/art",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/requests/api.py"
+        }
       ]
     }
   ],
