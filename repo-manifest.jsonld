@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/Hermes-Function-Calling/commit/ea3c4723e4cefdac760d483ccac6c8a428c95ab8",
       "git:hexsha": "ea3c4723e4cefdac760d483ccac6c8a428c95ab8",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T06:59:06.383445+00:00"
     }
   ]
 }
