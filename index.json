@@ -1,0 +1,11 @@
+{
+  "org": "NousResearch",
+  "repo": "Hermes-Function-Calling",
+  "versions": [
+    {
+      "commit": "ea3c4723e4cefdac760d483ccac6c8a428c95ab8",
+      "tag": "main",
+      "parsed_at": "2026-10-01T06:59:06.474788+00:00"
+    }
+  ]
+}
