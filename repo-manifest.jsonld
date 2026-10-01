@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/Hermes-Function-Calling/commit/ea3c4723e4cefdac760d483ccac6c8a428c95ab8",
       "git:hexsha": "ea3c4723e4cefdac760d483ccac6c8a428c95ab8",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
